@@ -1,0 +1,15 @@
+{
+  "Server": {
+    "port": 5000,
+    "uploadDir": "d:\\My_software\\nodetest\\uploads\\"
+  },
+  "User": {
+    "dbConfig": {
+      "mongoUri": "mongodb+srv://olegM:okmijn@cluster0.byqg5.azure.mongodb.net/appdb?retryWrites=true&w=majority"
+    },
+    "ACCESS_TOKEN_SECRET": "passforauthorization",
+    "ACCESS_TOKEN_LIFE": "3h",
+    "REFRESH_TOKEN_SECRET": "passfromrefresh",
+    "REFRESH_TOKEN_LIFE": "1h"
+  }
+}
